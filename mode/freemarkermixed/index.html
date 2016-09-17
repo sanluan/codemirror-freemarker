@@ -57,11 +57,11 @@ function addTag($id,$name){
 		<#if (a.siteId)??><input name="siteId" type="hidden" value="${a.siteId}" /></#if>
 		<input name="parentId" type="hidden" value="${parentId!}" />
 		<div class="pageFormContent" layoutH="57">
-		<@_content id=parentId>
+		<@_content id=parentId;parent>
 			<dl class="nowrap">
 				<dt>父内容：</dt>
 				<dd>
-					${(object.title)!}
+					${(parent.title)!}
 				</dd>
 			</dl>
 		</@_content>

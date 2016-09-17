@@ -23,8 +23,8 @@
 <article>
 <h2>FreeMarker mode</h2>
 <form><textarea id="code" name="code">
-<@_content id=id>
-	<#assign a=object/>
+<@_content id=id;content>
+	<#assign a=content/>
 	<#assign parentId=a.parentId!/>
 	<#assign categoryId=a.categoryId!/>
 	<#assign modelId=a.modelId!/>

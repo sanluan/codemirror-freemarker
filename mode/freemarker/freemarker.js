@@ -47,7 +47,7 @@
 				var last;
 				var freemarkerMode;
 				var regs = {
-					operatorChars : /[+\-*&%=<>!?:,|&]/, validIdentifier : /[a-zA-Z0-9_]/, stringChar : /['"]/
+					operatorChars : /[+\-*&%=<>!?:;,|&]/, validIdentifier : /[a-zA-Z0-9_]/, stringChar : /['"]/
 				};
 				
 				var helpers = {
