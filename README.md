@@ -1,6 +1,6 @@
-#CodeMirror-FreeMarker mode
+# CodeMirror-FreeMarker mode
 
-##简介
+## 简介
 
 更新：
 增加循环变量语法支持
