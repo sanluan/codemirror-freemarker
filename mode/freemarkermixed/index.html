@@ -11,17 +11,45 @@
 <script src="../../mode/htmlmixed/htmlmixed.js"></script>
 <script src="../../mode/freemarker/freemarker.js"></script>
 <script src="../../mode/freemarkermixed/freemarkermixed.js"></script>
+<style>
+.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black;}
+#nav h1 {
+  margin-right: 12px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #d30707;
+  letter-spacing: .5px;
+}
+#nav ul {
+  display: block;
+  margin: 0; padding: 0;
+  margin-bottom: 32px;
+}
+
+#nav li {
+  display: block;
+  margin-bottom: 4px;
+  float:left;
+}
+
+#nav ul a {
+  color: black;
+  padding: 0 7px 1px 11px;
+}
+
+#nav ul a.active, #nav ul a:hover {
+  border-bottom: 1px solid #E30808;
+  margin-bottom: -1px;
+  color: #E30808;
+}
+article{clear: both;}
+</style>
 <div id=nav>
   <a href="http://codemirror.net"><h1>CodeMirror</h1></a>
-
   <ul>
     <li><a href="../../index.html">Home</a>
-    <li><a href="../../doc/manual.html">Manual</a>
-    <li><a href="https://github.com/codemirror/codemirror">Code</a>
-  </ul>
-  <ul>
-    <li><a href="../index.html">Language modes</a>
-    <li><a class=active href="#">FreeMarker mixed</a>
+    <li><a href="../freemarker/index.html">FreeMarker</a>
+    <li><a class="active" href="../freemarkermixed/index.html">FreeMarker mixed</a>
   </ul>
 </div>
 

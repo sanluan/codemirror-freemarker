@@ -3,9 +3,12 @@
 ## 简介
 
 更新：
+
 freemarker兼容到2.3.26
 
-CodeMirror是一款JS编写的在线代码编辑器,本项目是以4.12.0基础编写的FreeMarker语法插件
+codemirror兼容到5.28.1
+
+CodeMirror是一款JS编写的在线代码编辑器,本项目是为CodeMirror编写的FreeMarker语法插件
 
 希望对CodeMirror比较熟悉的用户参与到该插件的长期开发中
 

@@ -1,6 +1,6 @@
-The MIT License (MIT)
+MIT License
 
-Copyright (c) 2015 PublicMS
+Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,28 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-# Other Licenses
-
-This software includes projects with the following licenses
-
-### [Apache License](http://www.apache.org/licenses/LICENSE-2.0)
-This license is used by the following third-party libraries:
-
-  * jUI [DWZ] (http://j-ui.com/)
-  * Spring Framework (http://projects.spring.io/spring-framework/)
-  * FreeMarker (http://freemarker.org/)
-
-### [LGPL License](https://www.gnu.org/copyleft/lesser.html)
-This license is used by the following third-party libraries:
-
-  * hibernate (http://hibernate.org/orm/)
-
-### [MIT License](http://www.opensource.org/licenses/MIT)
-This license is used by the following third-party libraries:
-
-  * jquery (http://jquery.com/)
-
-### [License(BSD)](https://github.com/ecomfe/echarts/blob/master/LICENSE)
-
-  * Echarts (http://echarts.baidu.com/)
