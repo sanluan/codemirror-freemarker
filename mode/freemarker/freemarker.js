@@ -32,13 +32,13 @@
 					}
 				}
 
-				var keyFunctions = [ "assign", "attempt", "break", "case", "compress", "default", "else",
+				var keyFunctions = [ "assign", "attempt", "autoesc", "break", "case", "compress", "default", "else",
 						"elseif", "escape", "fallback", "function", "flush", "ftl", "global", "if", "import",
-						"include", "items", "list", "local", "lt", "macro", "nested", "noescape", "noparse", "nt",
+						"include", "items", "list", "local", "lt", "macro", "nested","noautoesc", "noescape", "noparse", "nt","outputformat",
 						"recover", "recurse", "return", "rt", "sep", "setting", "stop", "switch", "t", "visit" ];
-				var specialVariables = [ "current_template_name", "data_model", "error", "globals", "lang", "locale",
+				var specialVariables = [ "auto_esc" , "current_template_name", "data_model", "error", "globals", "lang", "locale",
 						"locale_object", "locals", "main", "main_template_name", "namespace", "node", "now",
-						"output_encoding ", "template_name", "url_escaping_charset", "vars", "version" ];
+						"output_encoding " , "output_format" , "template_name", "url_escaping_charset", "vars", "version" ];
 
 				var freemarkerStartTagArray = [ "#", "@" ];
 
