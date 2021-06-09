@@ -23,9 +23,15 @@ CodeMirror是一款JS编写的在线代码编辑器,本项目是为CodeMirror编
     <script src="./mode/freemarker/freemarker.js"></script>
     <script src="./mode/freemarkermixed/freemarkermixed.js"></script>
     <textarea id="code" name="template">&lt;#assign data={&quot;aa&quot;: .now ,&quot;cc&quot;:&quot;dd&quot;}/&gt;${data.aa!}</textarea>
+    <script>
     var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
 				mode: "freemarkermixed",
 				lineNumbers: true
 			});
+    </script>
 ```
+更多示例
+freemarker语法高亮：mode/freemarker/index.html
+freemarker html混合语法高亮：mode/freemarkermixed/index.html
+
 授权:MIT
